@@ -1,0 +1,75 @@
+
+body{
+    display: grid;
+    grid-template-columns: 12;
+    grid-template-rows: 3;
+
+}
+
+.landing-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    background-color: aqua;
+}
+.projects-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(55, 244, 137);
+}
+.contacts-section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(201, 255, 92);
+}
+
+.logo-img{
+    margin-left: 3%;
+}
+.text-containers{
+   float: left;
+    width:50%;
+    margin-left: 5%;
+}
+.skills-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.skills-button{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+.header-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+
+.projects-icon{
+    position: relative;
+    float: right;
+}
+.projects-section-text{
+    position: relative;
+    float: left;
+}
+
+/*h1{
+    text-align: center;
+    margin-top: 24%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.5em;
+}*/
+
+
+
+/*Animation*/
